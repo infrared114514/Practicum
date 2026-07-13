@@ -123,7 +123,7 @@ def main() -> None:
     test_size = int(os.environ.get("TEST_SIZE", "500"))
     max_train_samples = int(os.environ.get("MAX_TRAIN_SAMPLES", "0"))
     source_dir = Path(
-        os.environ.get("SOURCE_DIR", "/home/wanghe/20260625/py-dpo-v0.1")
+        os.environ.get("SOURCE_DIR", "./source_data")
     )
     output_dir = Path(os.environ.get("OUTPUT_DIR", "dpo/data"))
 
